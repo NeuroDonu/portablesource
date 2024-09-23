@@ -1,10 +1,8 @@
 [project.urls]
 GitHub    = "https://github.com/portablesource/portablesource"
 Changelog = "https://github.com/portablesource/portablesource/releases"
-Funding   = ""
 Contact   = "https://t.me/neuralchatik"
 Download  = "https://github.com/portablesource/portablesource/releases"
-Docs      = ""
 Homepage  = "https://github.com/portablesource/portablesource"
 
 [tool.hatch.version]
@@ -17,7 +15,7 @@ description  = "Library for portable source!"
 authors      = [{name="NeuroDonu", email="112660822+NeuroDonu@users.noreply.github.com"}]
 readme       = "Readme.md"
 license      = "MIT"
-requires-python = ">=3.10,<3.11"
+requires-python = ">=3.8"
 dependencies = [
     "tqdm",
     "requests",
